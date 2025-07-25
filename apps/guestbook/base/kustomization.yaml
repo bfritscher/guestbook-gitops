@@ -16,7 +16,3 @@ images:
   - name: guestbook
     newName: ghcr.io/your-username/guestbook-gitops
     newTag: main-686bb45
-
-commonLabels:
-  app: guestbook
-  version: v1
