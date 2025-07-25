@@ -326,8 +326,8 @@ The setup includes automatic SSL/TLS certificates via Let's Encrypt:
 PostgreSQL is deployed directly as a Helm chart with these settings:
 - **Chart**: `bitnami/postgresql` version `12.12.10`
 - **Database**: `guestbook`
-- **Username**: `guestbook_user`
-- **Password**: `guestbook123` (stored in auto-generated secret)
+- **Username**: `guestbook`
+- **Password**: `guestbook` (stored in auto-generated secret)
 - **Storage**: 2Gi persistent volume
 
 ## Image Updates
