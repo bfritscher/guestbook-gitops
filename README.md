@@ -85,7 +85,7 @@ guestbook-deployment:
 │   │   ├── DB_HOST=postgresql
 │   │   ├── DB_PORT=5432
 │   │   ├── DB_NAME=guestbook
-│   │   ├── DB_USER=guestbook_user
+│   │   ├── DB_USER=guestbook
 │   │   ├── DB_PASS=<from postgresql secret>
 │   │   └── GUESTBOOK_SERVICE=postgres
 │   ├── 🏥 Health Checks:
@@ -121,7 +121,7 @@ nginx-static-deployment:
 postgresql (Helm Chart):
 ├── 📊 Chart: bitnami/postgresql v12.12.10
 ├── 🗄️ Database: guestbook
-├── 👤 User: guestbook_user
+├── 👤 User: guestbook
 ├── 🔐 Password: guestbook123 (in secret)
 ├── 💾 Storage: 2Gi PVC
 ├── 🔌 Port: 5432
@@ -186,7 +186,7 @@ The guestbook application uses these environment variables to connect to Postgre
 - `DB_HOST` - PostgreSQL service hostname (`postgresql`)
 - `DB_PORT` - PostgreSQL port (`5432`)
 - `DB_NAME` - Database name (`guestbook`)
-- `DB_USER` - Database username (`guestbook_user`)
+- `DB_USER` - Database username (`guestbook`)
 - `DB_PASS` - Database password (from PostgreSQL secret)
 - `GUESTBOOK_SERVICE` - Backend service type (`postgres`)
 
