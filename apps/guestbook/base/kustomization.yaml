@@ -16,7 +16,7 @@ resources:
 images:
   - name: guestbook
     newName: ghcr.io/your-username/guestbook-gitops
-    newTag: latest
+    newTag: main-d08bc8f
 
 commonLabels:
   app: guestbook
