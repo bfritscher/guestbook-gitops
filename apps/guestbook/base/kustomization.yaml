@@ -6,7 +6,6 @@ namespace: guestbook
 resources:
   - guestbook-deployment.yaml
   - guestbook-service.yaml
-  - guestbook-configmap.yaml
   - nginx-deployment.yaml
   - nginx-service.yaml
   - nginx-configmap.yaml
@@ -16,7 +15,7 @@ resources:
 images:
   - name: guestbook
     newName: ghcr.io/your-username/guestbook-gitops
-    newTag: main-d08bc8f
+    newTag: latest
 
 commonLabels:
   app: guestbook

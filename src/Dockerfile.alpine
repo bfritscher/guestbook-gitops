@@ -2,7 +2,7 @@
 FROM python:alpine
 
 # Specify your e-mail address as the maintainer of the container image
-LABEL maintainer="yourname@he-arc.ch"
+LABEL maintainer="your-email@he-arc.ch"
 
 # Add GitHub Container Registry labels
 LABEL org.opencontainers.image.title="Guestbook Application"

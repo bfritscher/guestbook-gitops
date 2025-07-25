@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://charts.bitnami.com/bitnami
+    repoURL: registry-1.docker.io/bitnamicharts
     chart: postgresql
-    targetRevision: 12.12.10
+    targetRevision: 16.7.21
     helm:
-      values:
+      values: |
         auth:
           postgresPassword: "guestbook"
           username: "guestbook"
